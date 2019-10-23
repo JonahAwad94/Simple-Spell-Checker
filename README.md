@@ -2,6 +2,7 @@
  Simple Spell Checker Assignment done in C++
  
  To run spell checker, while in same directory type in the following command:
+ 
  ./spellchecker <check_it.txt> <dictionary.txt>
  
  "check_it.txt" may be changed to any text document you would like to be spellchecked.
