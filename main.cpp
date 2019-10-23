@@ -9,7 +9,7 @@
 |                                                                          |
 |   NOTES:                                                                 |
 |     If a word has an apostrophe, the apostrophe is assumed to belong     |
-|       to a name and will not be spellchecked.                            |
+|       to a name and will not be spell checked.                           |
 \**************************************************************************/
 
 #include <iostream>
@@ -130,12 +130,12 @@ int main(int argc, char* argv[])
     cout << "Complete. Closing. " << endl;
     
 
-    // detect if word is mispelled (not in dictionary)
-    // place mispelled word into vector
-    vector<string> mispelledWords;
-    vector<string>::iterator mispelledWords_it;
+    // detect if word is misspelled (not in dictionary)
+    // place misspelled word into vector
+    vector<string> misspelledWords;
+    vector<string>::iterator misspelledWords_it;
 
-    cout << "Scanning for mispelled words..." << endl;
+    cout << "Scanning for misspelled words..." << endl;
     // Loop through text
     for (text_it = text.begin(); text_it != text.end(); text_it++)
     {
@@ -152,22 +152,22 @@ int main(int argc, char* argv[])
                 }
             }
 
-            // place into vector of mispelled words
-            mispelledWords.push_back(*text_it);
+            // place into vector of misspelled words
+            misspelledWords.push_back(*text_it);
 
             SkipWord:;
         }
     }
 
-    cout << "Complete. Mispelled words and suggested corrections have been placed "
+    cout << "Complete. Misspelled words and suggested corrections have been placed "
          << " in \"spell_check_results.txt\" " << endl;
 
-    // Output mispelled words with suggestions in text file
+    // Output misspelled words with suggestions in text file
     ofstream outputFile("spell_check_results.txt");
 
-    for (mispelledWords_it = mispelledWords.begin(); mispelledWords_it != mispelledWords.end(); mispelledWords_it++)
+    for (misspelledWords_it = misspelledWords.begin(); misspelledWords_it != misspelledWords.end(); misspelledWords_it++)
     {
-        outputFile << *mispelledWords_it << endl;
+        outputFile << *misspelledWords_it << endl;
     }
 
     outputFile.close();
