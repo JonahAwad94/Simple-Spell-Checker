@@ -10,6 +10,7 @@
  
  
  "check_it.txt" may be changed to any text document you would like to be spellchecked.
+ 
  "dictionary.txt" is provided, you may modify the words in the dictionary.
  
  
