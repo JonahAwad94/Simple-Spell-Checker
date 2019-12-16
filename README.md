@@ -37,5 +37,5 @@
  
  
  
- # Example Correction
+ # Example Correction Suggestions
  <img src="/correctionPreview.jpg">
