@@ -1,4 +1,10 @@
-comlete
-deciasion
-interpreation
-lwa
+Misspelled Words 	 Corrections
+---------------- 	 -----------
+comlete			complete	
+comlete			compete	
+deciasion			decision	
+interpreation			interpretation	
+lwa			wa	
+lwa			la	
+lwa			lea	
+lwa			law	
