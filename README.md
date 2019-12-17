@@ -31,11 +31,17 @@
     - Replace Letter ("moter" -> "meter", "motor")
     - Neighboring Letters Swapped ("nto" -> "not")
     
+    
+    
+    
  
- # Example Text
+ # Sample Text
  <img src="/textPreview.jpg">
  
  
  
- # Example Correction Suggestions
+ 
+ 
+ 
+ # Sample Correction Suggestions
  <img src="/correctionPreview.jpg">
