@@ -3,7 +3,7 @@
  
  # Assignment Description
  
- The purpose of the assignment was to not only build a spell checker, but to compare the runtimes between C++'s "unordered_set" and "set" data types. Since unordered_set's are implemented using a hash table, the average look up time for a word is O(1). C++'s "set" implementations vary but are typically implemented as red-black trees which have a look up time of O(log n). With this in mind, the runtimes for the underordered_set dictionary tend to be significantly shorter than set's runtime.
+The purpose of the assignment was build a spell checker and compare the runtimes between C++'s "unordered_set" and "set" data types. C++'s unordered_set's are implemented using a hash table, which is optimal for a dictionary since average look up time for a word would be O(1). C++'s "set" implementations vary but are typically implemented as red-black trees which have a look up time of O(log n). With this in mind, the runtimes for the underordered_set dictionary is expected to be significantly shorter than the set dictionary's runtime and the results confirmed this.
  
 # To Run Spell Checker
  - Navigate to the same directory as "spellchecker"
