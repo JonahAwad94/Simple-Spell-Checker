@@ -3,26 +3,23 @@
  
  # Assignment Description
  
-The purpose of the assignment was build a spell checker and compare the runtimes between C++'s "unordered_set" and "set" data types. C++'s unordered_set's are implemented using a hash table, which is optimal for a dictionary since average look up time for a word would be O(1). C++'s "set" implementations vary but are typically implemented as red-black trees which have a look up time of O(log n). With this in mind, the runtimes for the underordered_set dictionary is expected to be significantly shorter than the set dictionary's runtime and the results confirmed this.
+The purpose of the assignment was build a spell checker and compare the runtimes between C++'s "unordered_set" and "set" data types. C++'s "unordered_set" data type is implemented using a hash table, which is optimal for a dictionary as the average look up time for a word would be O(1). C++'s "set" implementations vary but are typically implemented as red-black trees which have a look up time of O(log n). With this in mind, the runtimes for the "underordered_set" dictionary were expected to be significantly shorter than the "set" dictionary's runtime and the results confirmed this.
  
 # To Run Spell Checker
- - Navigate to the same directory as "spellchecker"
- 
- 
+ - Navigate to the same directory as "spellchecker" in your terminal
  - Command template is as follows:
- 
- 
- ./spellchecker <check_it.txt> <dictionary.txt>
+   - ./spellchecker <check_it.txt> <dictionary.txt>
  
  
  
  "check_it.txt" may be changed to any text document you would like to be spellchecked.
  
- "dictionary.txt" is a default dictionary provided with the program. You may modify the words in the dictionary or provide your own dictionary.txt
+ "dictionary.txt" is a default dictionary provided with the program. You may modify the words in the dictionary or provide your own "dictionary.txt."
+ - If modifying or providing your own "dictionary.txt", be sure to keep the formatting the same, one word per line.
  
  
  
- When spell checking is complete, misspelled words along with their corrections are placed in "spell_check_result.txt" and the runtimes for each dictionary type will be displayed in the console.
+When spell checking is complete, misspelled words along with their suggested corrections are placed in "spell_check_result.txt" and the runtimes for each dictionary type will be displayed in the console.
  
  
  
